@@ -293,23 +293,6 @@ hcp-crm/
 }
 ```
 
----
-
-## 🎥 Video Walkthrough Checklist
-
-For the submission video, demonstrate:
-
-- [ ] Frontend URL loaded in browser
-- [ ] **Form Mode** — log a new interaction, show AI-enriched summary
-- [ ] **Chat Mode** — Tool 1: `log_interaction` via natural language
-- [ ] **Chat Mode** — Tool 2: `edit_interaction` (edit a field)
-- [ ] **Chat Mode** — Tool 3: `get_interaction` (fetch by ID)
-- [ ] **Chat Mode** — Tool 4: `list_interactions` (search by HCP name)
-- [ ] **Chat Mode** — Tool 5: `analyze_hcp_insights` (AI recommendations)
-- [ ] Code walkthrough: agent graph, tool definitions, Redux store, FastAPI routes
-
----
-
 ## 📝 Notes
 
 - All AI calls go through **Groq's API** — no OpenAI dependency.
